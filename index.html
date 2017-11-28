@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+	<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RustChallengeSurvival</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Vollkorn+SC:400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap_grid.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<header>
+		<nav class="header-menu dark">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-8 col-md-3">
+						<a href="index.html"><img src="img/logo.png" alt="Rust ChallengeSurvival Server" class="logo img-responsive"></a>
+					</div>
+
+					<div class="col-md-9">
+						<nav class="main-menu hidden-sm hidden-xs">
+							<ul>
+								<li>
+									<a href="#about" class="active">О сервере</a>
+								</li>
+								<li>
+									<a href="#screens">Скриншоты</a>
+								</li>
+								<li>
+									<a href="#comands">Команды</a>
+								</li>
+								<li>
+									<a href="#news">Новости</a>
+								</li>
+								<li>
+									<a href="http://game.rustcs.ru" target="blank">Магазин</a>
+								</li>
+								<li>
+									<a href="#contacts">Контакты</a>
+								</li>
+								<li>
+									<a class="vk" href="https://vk.com/rustcsru" target="blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+								</li>
+							</ul>
+						</nav>
+						<a href="#" class="toggle-menu hidden-md hidden-lg"><span></span></a>
+						<div class="col-xs-12">
+							<nav class="main-menu hidden-menu hidden-md hidden-lg">
+								<ul>
+								<li>
+									<a href="#about" class="active">О сервере</a>
+								</li>
+								<li>
+									<a href="#screens">Скриншоты</a>
+								</li>
+								<li>
+									<a href="#comands">Команды</a>
+								</li>
+								<li>
+									<a href="#news">Новости</a>
+								</li>
+								<li>
+									<a href="http://game.rustcs.ru" target="blank">Магазин</a>
+								</li>
+								<li>
+									<a href="#contacts">Контакты</a>
+								</li>
+								<hr>
+								<li class="vk">
+									<a class="vk" href="https://vk.com/rustcsru" target="blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
+								</li>
+							</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<div id="head">
+			<div class="slider-container">
+				<div id="mySlides">
+					<div class="mySlides">
+						<img src="img/slider/1.jpg" width="100%">
+					</div>
+					<div class="mySlides">
+						<img src="img/slider/2.jpg" width="100%">
+					</div>
+					<div class="mySlides">
+						<img src="img/slider/3.jpg" width="100%">
+					</div>
+					<div class="mySlides">
+						<img src="img/slider/4.jpg" width="100%">
+					</div>
+					<div class="mySlides">
+						<img src="img/slider/5.jpg" width="100%">
+					</div>
+					<div class="mySlides">
+						<img src="img/slider/6.jpg" width="100%">
+					</div>
+					<div class="mySlides">
+						<img src="img/slider/7.jpg" width="100%">
+					</div>
+					<div class="mySlides">
+						<img src="img/slider/8.jpg" width="100%">
+					</div>
+					<div class="mySlides">
+						<img src="img/slider/9.jpg" width="100%">
+					</div>
+					<div class="mySlides">
+						<img src="img/slider/10.jpg" width="100%">
+					</div>
+					<div class="mySlides">
+						<img src="img/slider/11.jpg" width="100%">
+					</div>
+					<div class="mySlides">
+						<img src="img/slider/12.jpg" width="100%">
+					</div>
+				</div>
+						
+				<div class="dots col-xs-12">
+		            <span class="dot header-dot"></span>
+		            <span class="dot header-dot"></span>
+		            <span class="dot header-dot"></span>
+		            <span class="dot header-dot"></span>
+		            <span class="dot header-dot"></span>
+		            <span class="dot header-dot"></span>
+		            <span class="dot header-dot"></span>
+		            <span class="dot header-dot"></span>
+		            <span class="dot header-dot"></span>
+		            <span class="dot header-dot"></span>
+		            <span class="dot header-dot"></span>
+		            <span class="dot header-dot"></span>
+        		</div>
+
+				<div class="big-logo">
+					<div class="col-xs-5">
+						<img src="img/rust.png" alt="" class="rust img-responsive">
+					</div>
+					<div class="cs col-xs-3">
+						<img src="img/challenge.png" class="chall img-responsive">
+						<img src="img/survival.png" class="surv img-responsive">
+					</div>
+				</div>	
+
+			</div>
+		</div>
+
+	</header>
+
+	<section id="about" class="dark">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>О сервере</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 about-item">
+					<img src="img/icons/map.png" class="img-responsive">
+					<h4>Большая <br>карта</h4>
+					<p>На сервере используется большая карта 4000x4000, так что бы всем хватило места.</p>
+				</div>
+				<div class="col-sm-4 about-item">
+					<img src="img/icons/interface.png" class="img-responsive">
+					<h4>Графический интерфейс команд</h4>
+					<p>Серверные команды доступны через удобный графический интерфейс.</p>
+				</div>
+				<div class="col-sm-4 about-item">
+					<img src="img/icons/sack.png" class="img-responsive">
+					<h4>Дополнительный <br> рюкзак</h4>
+					<p>Теперь вы всегда сможете унести больше с дополнительным рюкзаком на 12 ячеек!</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-4 about-item">
+					<img src="img/icons/metro.png" class="img-responsive">
+					<h4>Система метро</h4>
+					<p>Станция метро возле каждой крупной РТ позволит быстро путешествовать по карте.</p>
+				</div>
+				<div class="col-sm-4 about-item">
+					<img src="img/icons/bots.png" class="img-responsive">
+					<h4>Боты на РТ</h4>
+					<p>На всех РТ вас будут ждать боты, которые попытаются вас убить. Скучно не будет!</p>
+				</div>
+				<div class="col-sm-4 about-item">
+					<img src="img/icons/teleport.png" class="img-responsive">
+					<h4>Телепорт к телу</h4>
+					<p>Если вы умерли, больше не нужно искать свой труп, переживая за лут. Действует телепорт.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-4 about-item">
+					<img src="img/icons/events.png" class="img-responsive">
+					<h4>Крепеости и ивенты</h4>
+					<p>Мы придумали для вас интересные ивенты и построили новые крепости с лутом. Заходите, будет интересно!</p>
+				</div>
+				<div class="col-sm-4 about-item">
+					<img src="img/icons/quests.png" class="img-responsive">
+					<h4>Квесты и награды</h4>
+					<p>На сервере есть НПС, выдающий квесты, и, конечно же, предусмотрены награды за их выполнение.</p>
+				</div>
+				<div class="col-sm-4 about-item">
+					<img src="img/icons/shop.png" class="img-responsive">
+					<h4>Бонусы в магазине</h4>
+					<p>При регистрации в нашем магазине, вы получите 50 рублей на свой счет для покупки самого необходимого.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-6">
+					<h3>Сейчас играет:</h3>
+				</div>
+				<div class="col-sm-6">
+					<div class="bar-box">
+						<div class="bar-text" id="interest"></div>
+						<img src="img/progress-bar.jpg" style="width: 1px; height: 30px;" id="progress">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+	<section id="screens" class="light">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>Скриншоты</h1>
+				</div>
+			</div>
+
+			<div class="gallery">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<div class="img-container">
+							<div class="gallery-image" onclick="openModal();currentSlide(1)">
+								<img src="img/gallery/1.png" class="img-responsive">
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<div class="img-container">
+							<div class="gallery-image" onclick="openModal();currentSlide(2)">
+								<img src="img/gallery/2.png" class="img-responsive">
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<div class="img-container">
+							<div class="gallery-image" onclick="openModal();currentSlide(3)">
+								<img src="img/gallery/3.png" class="img-responsive">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<div class="img-container">
+							<div class="gallery-image" onclick="openModal();currentSlide(4)">
+								<img src="img/gallery/4.png" class="img-responsive">
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<div class="img-container">
+							<div class="gallery-image" onclick="openModal();currentSlide(5)">
+								<img src="img/gallery/5.png" class="img-responsive">
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<div class="img-container">
+							<div class="gallery-image" onclick="openModal();currentSlide(6)">
+								<img src="img/gallery/6.png" class="img-responsive">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<div class="img-container">
+							<div class="gallery-image" onclick="openModal();currentSlide(7)">
+								<img src="img/gallery/7.png" class="img-responsive">
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<div class="img-container">
+							<div class="gallery-image" onclick="openModal();currentSlide(8)">
+								<img src="img/gallery/8.png" class="img-responsive">
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+						<div class="img-container">
+							<div class="gallery-image" onclick="openModal();currentSlide(9)">
+								<img src="img/gallery/9.png" class="img-responsive">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="myModal" class="modal">
+					<span class="close" onclick="closeModal()">&times;</span>
+
+					<div class="modal-content">
+
+						<div class="myModals">
+					    	<div class="numbertext">1 / 9</div>
+					    	<img src="img/gallery/1.png" style="width:100%">
+						</div>
+						<div class="myModals">
+					    	<div class="numbertext">2 / 9</div>
+					    	<img src="img/gallery/2.png" style="width:100%">
+						</div>
+						<div class="myModals">
+					    	<div class="numbertext">3 / 9</div>
+					    	<img src="img/gallery/3.png" style="width:100%">
+						</div>
+						<div class="myModals">
+					    	<div class="numbertext">4 / 9</div>
+					    	<img src="img/gallery/4.png" style="width:100%">
+						</div>
+						<div class="myModals">
+					    	<div class="numbertext">5 / 9</div>
+					    	<img src="img/gallery/5.png" style="width:100%">
+						</div>
+						<div class="myModals">
+					    	<div class="numbertext">6 / 9</div>
+					    	<img src="img/gallery/6.png" style="width:100%">
+						</div>
+						<div class="myModals">
+					    	<div class="numbertext">7 / 9</div>
+					    	<img src="img/gallery/7.png" style="width:100%">
+						</div>
+						<div class="myModals">
+					    	<div class="numbertext">8 / 9</div>
+					    	<img src="img/gallery/8.png" style="width:100%">
+						</div>
+						<div class="myModals">
+					    	<div class="numbertext">9 / 9</div>
+					    	<img src="img/gallery/9.png" style="width:100%">
+						</div>
+
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="sale dark">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>Акция!</h1>
+					<p>Только до 31.12.2017г при регистрации в магазине вы получите <span class="big-text">50 рублей </span>на свой счет! Также действуют скидки <span class="big-text">50%</span>.</p>
+					<a href="http://game.rustcs.ru" target="blank" class="btn btn-shop">Перейти в магазин</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="comands" class="light">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>Команды сервера</h1>
+				</div>
+			</div>
+			<div class="slider-container">
+
+				<div class="server-comands row">
+					<div class="col-xs-2 chevron left" onclick="plusComands(-1)">
+						<i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+					</div>
+					<div class="col-xs-8 comands-wrapper">
+							<h3>Общие команды</h3>
+							<p><span class="comand">Shift + Ctrl </span>- открыть графическое меню</p>
+							<h3>Друзья</h3>
+							<p><span class="comand">/friend add <имя игрока> </span>- добавить в друзья</p>
+							<p><span class="comand">/friend remove <имя игрока> </span>- удалить из друзей</p>
+							<p><span class="comand">/friend list </span>- список друзей</p>
+					</div>
+					<div class="col-xs-2 chevron right" onclick="plusComands(1)">
+						<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+					</div>
+				</div>
+
+				<div class="server-comands row">
+					<div class="col-xs-2 chevron left" onclick="plusComands(-1)">
+						<i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+					</div>
+					<div class="col-xs-8 comands-wrapper">
+						<h3>Автозакрытие дверей</h3>
+						<p><span class="comand">/ad </span>- отключение автозакрытия</p>
+						<p><span class="comand">/ad <число секунд от 5 до 30> </span>- установка времени автозакрытия дверей</p>
+						<h3>Киты (наборы)</h3>
+						<p><span class="comand">/kit </span>- показать список наборов</p>
+					</div>
+					<div class="col-xs-2 chevron right" onclick="plusComands(1)">
+						<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+					</div>
+				</div>
+
+				<div class="server-comands row">
+					<div class="col-xs-2 chevron left" onclick="plusComands(-1)">
+						<i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+					</div>
+					<div class="col-xs-8 comands-wrapper">
+						<h3>Апгрейд зданий</h3>
+						<p><span class="comand">/bgrade </span>- показать текущий уровень постройки</p>
+						<p><span class="comand">/bgrade 1 </span>- автоматическое обновление до дерева</p>
+						<p><span class="comand">/bgrade 2 </span>- автоматическое обновление до камня</p>
+						<p><span class="comand">/bgrade 3 </span>- автоматическое обновление до металла</p>
+						<p><span class="comand">/bgrade 4 </span>- автоматическое обновление до бронированного</p>
+						<p><span class="comand">/bgrade 0 </span>- отключить автоматическое обновление</p>
+						
+						
+					</div>
+					<div class="col-xs-2 chevron right" onclick="plusComands(1)">
+						<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+					</div>
+				</div>
+
+				<div class="server-comands row">
+					<div class="col-xs-2 chevron left" onclick="plusComands(-1)">
+						<i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+					</div>
+					<div class="col-xs-8 comands-wrapper">
+						<h3>Телепортация</h3>
+						<p><span class="comand">/home add <имя> </span>- сохраняет текущее местоположение</p>
+						<p><span class="comand">/home remove <имя> </span>- удаляет сохраненное местоположение</p>
+						<p><span class="comand">/home list </span>- список сохраненых местоположений</p>
+						<p><span class="comand">/home <имя> </span>- телепортирует в сохраненое местоположение</p>
+						<p><span class="comand">/tpr <имя игрока> </span>- запрос телепортации к игроку</p>
+						<p><span class="comand">/tpa </span>- принять запрос телепортации</p>
+						<p><span class="comand">/tpc </span>- отменить телпортацию или запрос на нее</p>
+						<p><span class="comand">/town </span>- телепорт в город</p>
+						<p><span class="comand">/tpinfo </span>- показывает ограничения и время отката телепортации </p>
+					</div>
+					<div class="col-xs-2 chevron right" onclick="plusComands(1)">
+						<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+					</div>
+				</div>
+
+				<div class="server-comands row">
+					<div class="col-xs-2 chevron left" onclick="plusComands(-1)">
+						<i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+					</div>
+					<div class="col-xs-8 comands-wrapper">
+						<h3>Квесты</h3>
+						<p><span class="comand">/q </span>- показать меню квестов</p>
+						<h3>Полный список команд можно найти в игре по кнопке <span class="comand">Помощь</span> внизу экрана</h3>
+					</div>
+					<div class="col-xs-2 chevron right" onclick="plusComands(1)">
+						<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+					</div>
+				</div>
+
+				<div class="dots col-xs-12">
+				  <span class="dot comands-dot" onclick="currentComands(1)"></span> 
+				  <span class="dot comands-dot" onclick="currentComands(2)"></span> 
+				  <span class="dot comands-dot" onclick="currentComands(3)"></span> 
+				  <span class="dot comands-dot" onclick="currentComands(4)"></span>
+				  <span class="dot comands-dot" onclick="currentComands(5)"></span>
+				</div>
+			
+			</div>
+
+		</div>
+	</section>
+
+	<section id="news">
+		<div class="news-wrapper">
+			<div class="container">
+
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>Последние новости</h1>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					<div class="news-card">
+						<img src="img/news/glass.jpg" width="100%">
+						<h3>22.11.2017</h3> 
+						<h6>изменения в игре</h6>
+						<p>Добавлено пуленепробиваемое стекло. Также добавлена информация о защите брони, о наносимом уроне от оружия. изменены звуки деревьев. </p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6">
+					<div class="news-card">
+						<img src="img/news/kits.jpg" width="100%">
+						<h3>18.11.2017</h3> 
+						<h6>добавлены киты</h6>
+						<p>На сервер добавлены новые киты: "Дом" с материалами для постройки первого дома, и "Еда" для помощи в выживании.</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6">
+					<div class="news-card">
+						<img src="img/news/minigame.jpg" width="100%">
+						<h3>16.11.2017</h3> 
+						<h6>изменения в игре</h6>
+						<p>Очередные изменения в игре: пофиксены некоторы баги, добавлена мини-игра при добыче древесины. Добавлена анимация падения деревьев.</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6">
+					<div class="news-card">
+						<img src="img/news/bots.jpg" width="100%">
+						<h3>11.11.2017</h3> 
+						<h6>добавлены боты</h6>
+						<p>Добавлены новые боты: мародеры и ученые на всех РТ и в местах падения аердропов. Боты проявляют агрессию при виде игрока. Мародеры вооружены холодным оружием, ученые огнестрельным. Убивая ботов можно собирать лут.</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		</div>
+		
+	</section>
+
+	<section class="sale light">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>Акция!</h1>
+					<p>Только до 31.12.2017г при регистрации в магазине вы получите <span class="big-text">50 рублей </span>на свой счет! Также действуют скидки <span class="big-text">50%</span>.</p>
+					<a href="http://game.rustcs.ru" target="blank" class="btn btn-shop">Перейти в магазин</a>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+
+	<section id="contacts" class="dark">
+		<div class="container">
+			<div class="row">
+				<h1>Контакты</h1>
+			</div>
+			<div class="row contacts-wrapper">
+				<div class="col-xs-12 col-md-6">
+					<h4>Вы можете связаться с нами через сайт:</h4>
+					<form action="#" class="contacts-form">
+						<label for="name">Имя: <span class="aster">*</span></label>
+						<input type="text" id="name" required>
+						<label for="email">E-mail: <span class="aster">*</span></label>
+						<input type="email" id="email" required>
+						<label for="message">Сообщение: <span class="aster">*</span></label>
+						<textarea id="message" required></textarea>
+						<button class="btn btn-send">Отправить</button>
+					</form>
+				</div>
+				<div class="col-xs-12 col-xs-offset-0 col-md-offset-1 col-md-5">
+					<div class="social">
+						<p><i class="fa fa-vk" aria-hidden="true"></i><a href="https://vk.com/rustcsru" target="blank">https://vk.com/rustcsru</a></p>
+						<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:rustcs@yandex.ru">rustcs@yandex.ru</a></p>
+					</div>
+					<div class="questions">
+						<p>Вы можете задать свои вопросы администрации сервера, используя любой из предложенных способов, а также отправить нам свои предложения и пожелания по работе сервера. </p>
+						<p>Будем рады получить от вас обратную связь.</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+
+				<div class="col-xs-12 col-sm-4">
+					<a href="index.html"><img src="img/logo.png" alt="Rust ChallengeSurvival Server" class="logo img-responsive"></a>
+				</div>
+				<div class="col-xs-12 col-sm-8">
+					<div class="footer-text">
+						<p>&copy 2017 - Rust Challenge Survaval</p>
+						<p>Создание сайта - <a href="https://github.com/elena-dragunova" target="blank">Елена Драгунова</a></p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

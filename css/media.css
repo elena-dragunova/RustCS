@@ -1,0 +1,97 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .bar-box {
+        width: 400px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .bar-box {
+        width: 300px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+        margin: 0 5px;
+    }
+    .dot.active {
+        width: 14px;
+        height: 14px;
+        border-radius: 7px;
+    }
+
+    .big-logo {
+        top: 20px;
+        left: 10px;
+    }
+
+    .cs {
+        padding-top: 0;
+    }
+
+    .btn-shop {
+        width: 250px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1rem;
+    }
+
+    .comands-dot:hover {
+        width: 14px;
+        height: 14px;
+        border-radius: 7px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer img {
+        margin:0 auto;
+        margin-top: 2em;
+    }
+
+    #about h3 {
+        margin-top: 2em ;
+    }
+
+    .bar-box {
+        margin: auto;
+        margin-top: 2em;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .bar-box {
+        width: 200px;
+    }
+
+    .bar-text {
+        font-size: 1rem;
+    }
+
+    .top {
+        width: 35px;
+        height: 35px;
+    }
+    .top .fa {
+        margin-top: 3px;
+    }
+
+    .top.active {
+        right: 10px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+   
+}
